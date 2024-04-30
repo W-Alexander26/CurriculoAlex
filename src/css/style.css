@@ -1,9 +1,11 @@
 .nav{
   background-color: gold;
   display: grid;
+
   grid-template-columns: 40% 20% 6% 34%;
   justify-items: center;
   height: 350px;
+
 }
 
 .Fondo{
@@ -36,6 +38,7 @@
 
 .nav-header{
   background-color:rgb(105, 77, 54);
+
   width: 180px;
   height: 180px;
   margin-left: 318px;
@@ -44,13 +47,16 @@
   align-items: center;
   justify-content: center
 
+
 }
 
 .titulo{
   color: gold;
+
   font-size: 36px;
   position: absolute;
   margin-top: 8%;
+
 }
 
 .subtitulo{
@@ -115,4 +121,5 @@
   font-size: 11px;
   font-weight: bolder;
 }
+
 
