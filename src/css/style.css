@@ -10,14 +10,14 @@
 
 .Fondo{
   background-color: grey;
-  width: 200px;
+  width: 400px;
   height: 10px;
   border-radius: 2px;
 }
 
 .barra1{
   background-color: gold;
-  width: 150px;
+  width: 350px;
   height: 10px;
   border-radius: 2px;
 }
@@ -31,7 +31,7 @@
 
 .barra3{
   background-color: gold;
-  width: 190px;
+  width: 330px;
   height: 10px;
   border-radius: 2px;
 }
@@ -127,25 +127,123 @@
   display: flex;
   align-items:center;
   justify-content: center;
-  min-height: 10vh;
   padding: 10px;
+  height: auto;
+  width: auto;
+  margin-top: 2%;
 }
 
 .caja{
   display: flex;
-  width: 15%;
-}
-
-.primer-cuadro{
-  width: 10px;
-  height: 10px;
-  background-color: gold;
-
+  align-items: center;
+  width: 50%;
+  
 }
 
 .vertical1{ 
   display: inline;
+  height: 50px;
+  width: 690%;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 1%;
+  letter-spacing: 10px; 
   transform: rotate(-90deg);
+  position: relative;
+  margin-left: -41%;
+  border: solid 2px black;
+}
 
+.primer-cuadro{
+  background-color: gold;
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 52%;
+}
+
+.primer-texto{
+  align-self: center;
+  font-size: 23px;
+  border: solid 3px black;
+  position: relative;
+  margin-left: -40%;
+  height: 258px;
+}
+
+.contenedor1debajo{
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-right: 40%;
+  font-size: 18px;
+  border: solid 3px blue;
+  width: 38%;
+  margin-top: 40%;
+  height: 28%;
+  
+}
+
+
+.imagenes{
+  width: 55px;
+  height: 55px;
+  background-color: gold;
+  border-radius: 50%;
+
+}
+
+.caja2{
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+.vertical2{
+  display: inline;
+  height: 50px;
+  width: 450%;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -40%;
+  letter-spacing: 10px;
+  transform: rotate(-90deg);
+  position: relative;
+  margin-left:-62%;
+  border: solid 2px black;
+  
+  
+ 
+}
+
+.segundo-cuadro{
+  background-color: gold;
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 51%;
+}
+
+.segundo-texto{
+  align-self: center;
+  font-size: 18px;
+  border: solid 3px black;
+  position: relative;
+  margin-left: -68%;
+  margin-top: -27%;
+}
+
+.contenedor2debajo{
+ 
+  position: absolute;
+  margin-top: 30%;
+  margin-right: -51%;
+  font-size: 24px;
+  font-weight: bolder;
+  border: solid 3px lightblue;
+  width: 35%;
+  margin-top: 20%;
 }
 
