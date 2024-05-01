@@ -123,3 +123,29 @@
 }
 
 
+.contenedor{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  min-height: 10vh;
+  padding: 10px;
+}
+
+.caja{
+  display: flex;
+  width: 15%;
+}
+
+.primer-cuadro{
+  width: 10px;
+  height: 10px;
+  background-color: gold;
+
+}
+
+.vertical1{ 
+  display: inline;
+  transform: rotate(-90deg);
+
+}
+
