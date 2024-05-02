@@ -376,4 +376,82 @@
   font-weight: bolder;
 }
 
+.sexta-caja{
+  display: flex;
+  align-items: center;
+}
 
+.vertical5{
+
+  display: inline;
+  height: 50px;
+  width: 25%;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 37%;
+  letter-spacing: 10px; 
+  position: relative;
+  margin-left: -7%;
+  transform: rotate(-90deg);
+}
+
+.quinto-cuadro{
+  background-color: gold;
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  margin-left: 3%;
+  margin-top: 72%;
+}
+
+.quinto-texto{
+  align-self: center;
+  font-size: 13px;
+  height: 215px;
+  font-weight: bolder;
+  width:370px;
+  position: absolute;
+  margin-left: 10%;
+  margin-top: -173px;
+}
+
+
+.vertical6{
+  display: inline;
+  height: 50px;
+  width: 26%;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: -10%;
+  letter-spacing: 10px;
+  position: absolute;
+  margin-left:41%;
+  transform: rotate(-90deg);
+}
+
+
+.sexto-cuadro{
+  background-color: gold;
+  height: 5%;
+  width: 5%;
+  position: absolute;
+  margin-left: 52%;
+  margin-top: 12.7%;
+ 
+}
+
+.cajon1{
+align-self: center;
+position: absolute;
+width: 400px;
+height: 305px;
+margin-top: -220px;
+margin-left: 60%;
+display: grid;
+grid-template-columns: 150px 150px 150px;
+grid-template-rows: 2;
+}
+
+.iconos-final{
+  width: 100px; 
+}
